@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Reservia Home page</title>
     <link href="main.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="main.scss">
     <script src="https://kit.fontawesome.com/ba1eae497d.js" crossorigin="anonymous"></script>
@@ -35,23 +35,34 @@
  </div>
 
  <div class="filters">
-   <div>Filters</div>
-   <div id="low-cost">
-     <i class="fas fa-money-bill-wave"></i>
-     Low cost
+   <p>Filters</p>
+
+   <div class="fil-op">
+     <div class="fil-icone">
+      <i class="fas fa-money-bill-wave"></i>
+      
+     </div>
+     <span>Low cost</pan>
    </div>
-   <div id="family-friendly">
-     <i class="fas fa-child"></i>
-     Family-friendly
+   <div class="fil-op">
+     <div class="fil-icone">
+      <i class="fas fa-child"></i>
+     
+     </div>
+     <span>Family-friendly</span> 
    </div>
-   <div id="romantic">
-     <i class="fas fa-heart"></i>
-     Romantic
+   <div class="fil-op" >
+     <div class="fil-icone">
+      <i class="fas fa-heart"></i>  
+     </div>
+     <span>Romantic</span> 
    </div>
-   <div id="pets-allowed">
-     <i class="fas fa-dog"></i>
-     Pets allowed
-   </div>
+   <div class="fil-op">
+    <div class="fil-icone">
+      <i class="fas fa-dog"></i>
+    </div>
+    <span>Pets allowed</span>
+    </div>
  </div>
  
  <div class="info">
@@ -59,153 +70,208 @@
    <span>More than 500 accomedations are available in this city</span>
  </div>
 
- <div class="accos acco-block-1">
-   <h2>Accomedations in Marseille</h2>
+<div class="accos"> 
+ <div class= "acco-block-1">
+   <h2 class="acco-info">Accomedations in Marseille</h2>
+  <div class="acco-list">   
    <div class="acco acco-a">
       <img src="https://i.postimg.cc/nzFvpxb5/marcus-loke-WQJv-WU-HZFo-unsplash.jpg" alt="">
-      <h3>Auberge la Cannebiere</h3>
-      <p>Night starting at <b>25 €</b></p>
+     <div id="hotel-info">
+      <p id="hotel-name">Auberge la Cannebiere</p>
+      <p>Night starting at <b> 25 €</b></p>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="far fa-star"></i>
+      </div> 
      </div> 
+
    <div class="acco acco-b">
      <img src="https://i.postimg.cc/Wp9QRbLB/fred-kleber-g-Tbaxa-VLvsg-unsplash.jpg" alt="">
-     <h3>Hotel du port</h3>
+    <div id="hotel-info">
+     <p id="hotel-name">Hotel du port</p>
       <p>Night starting at <b>52 €</b></p>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>   
+      <i class="fas fa-star"></i> 
+    </div>  
    </div>
+
+
    <div class="acco acco-c">
      <img src="https://i.postimg.cc/cJ0Sx9D2/reisetopia-B8-WIgx-A-PFU-unsplash.jpg" alt="">
-     <h3>Les moutettes Hotel</h3>
+     <div id="hotel-info">
+     <p id="hotel-name">Les moutettes Hotel</p>
       <p>Night starting at <b>76 €</b></p>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="far fa-star"></i>
+      </div>
    </div>
+
    <div class="acco acco-d">
      <img src="https://i.postimg.cc/ZYBKDQXx/annie-spratt-Eg1qc-Iit-Au-A-unsplash.jpg" alt="">
-     <h3>Hotel de la mer</h3>
+     <div id="hotel-info"> 
+     <p id="hotel-name">Hotel de la mer</p>
       <p>Night starting at <b>46 €</b></p>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="far fa-star"></i>
       <i class="far fa-star"></i>
+     </div>
    </div>
-   <div class="acco acco-f">
+
+   <div class="acco acco-e">
      <img src="https://i.postimg.cc/SR3djTcc/nicate-lee-k-T-Zyaiw-Be0-unsplash.jpg" alt="">
-     <h3>Auberge le Panier</h3>
+     <div id="hotel-info">
+     <p id="hotel-name">Auberge le Panier</p>
       <p>Night starting at <b>23 €</b></p>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="far fa-star"></i>
+     </div>
    </div>
-   <div class="acco acco-g">
+
+   <div class="acco acco-f">
      <img src="https://i.postimg.cc/K8N9DNbh/febrian-zakaria-M6-S1-Wvf-W68-A-unsplash.jpg" alt="">
-     <h3>Hotel chez Amina</h3>
+     <div id="hotel-info">
+     <p id="hotel-name">Hotel chez Amina</p>
       <p>Night starting at <b>96 €</b></p>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
+     </div>
    </div>
-   <h4>Show more</h4>
+  </div>
+
+   <div> 
+     <div id="expander">
+      <p>Show more<p>
+     </div>
+   
+   </div>
  </div>
 
- <div class="accos accos-block-2">
-   <h2>Most Popular</h2>
+ <div class="acco-block-2">
+   <div class="acco-block-2_header">
+   <span id="most-popular-header">Most Popular</span>
    <i class="fas fa-chart-line"></i>
-   <div id="acco-1">
-     <img src="https://i.postimg.cc/P5mKKng7/emile-guillemot-Bj-rc-SC5-Xf-E-unsplash.jpg" alt="">
-     <h3>Morning Sun Hotel</h3>
-     <p>Night starting at <b>128 € </b></p>
-     <i class="fas fa-star"></i>
+  </div>
+  <div class="acco-block-2_content"> 
+   <div class="popular-accos" id="acco-1">
+     <div class="popular-accos_image"> 
+      <img src="https://i.postimg.cc/P5mKKng7/emile-guillemot-Bj-rc-SC5-Xf-E-unsplash.jpg" alt="">
+     </div>
+     
+     <div class="popular-accos_info"> 
+      <p id="hotel-name">Morning Sun Hotel</p>
+      <p>Night starting at <b>128 € </b></p>
       <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+     </div> 
    </div>
-   <div id="acco-2">
-     <img src="https://i.postimg.cc/vHnpRkRr/aw-creative-VGs8z60y-T2c-unsplash.jpg" alt="">
-     <h3>Au coeur de leou Bed and Breakfast</h3>
-     <p>Night starting at <b> 71 € </b></p>
-     <i class="fas fa-star"></i>
+   <div class="popular-accos" id="acco-2">
+     <div class="popular-accos_image">
+      <img src="https://i.postimg.cc/vHnpRkRr/aw-creative-VGs8z60y-T2c-unsplash.jpg" alt="">
+     </div>
+     <div class="popular-accos_info">
+      <p id="hotel-name">Au coeur de leou Bed and Breakfast</p>
+      <p>Night starting at <b> 71 € </b></p>
       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+     </div>
+    
+   </div>
+   <div class="popular-accos" id="acco-3">
+     <div class="popular-accos_image">
+      <img src="https://i.postimg.cc/2yZXDbtk/febrian-zakaria-sjv-U0-THcc-QA-unsplash.jpg" alt="">
+     </div>
+     <div class="popular-accos_info">
+      <p id="hotel-name">Tout bleu et Blanc Hotel</p>
+      <p>Night starting at <b> 68 € </b></p>
       <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-   </div>
-   <div id="acco-3">
-     <img src="https://i.postimg.cc/2yZXDbtk/febrian-zakaria-sjv-U0-THcc-QA-unsplash.jpg" alt="">
-     <h3>Tout bleu et Blanc Hotel</h3>
-     <p>Night starting at <b> 68 € </b></p>
-     <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-   </div>
-
- </div>
-
- <div class="activity">
-   <h2>Activities in Marsielle</h2>
-   <div id="activ-1">
-     <img src="https://i.postimg.cc/tJ6yMgtP/reno-laithienne-QUg-Jhd-Y5-Fyk-unsplash.jpg" alt="">
-     <h3>Old Port</h3>
-   </div>
-   <div id="activ-2">
-     <img src="https://i.postimg.cc/7LQkPzK0/paul-hermann-QFTr-Ld-QIRh-I-unsplash.jpg" alt="">
-     <h3>Pomegues Fort</h3>
-   </div>
-   <div id="activ-3">
-     <img src="https://i.postimg.cc/6pMszRJg/kevin-hikari-r-V-Qd1l-VXg-unsplash.jpg" alt="">
-     <h3>Frioul Island</h3>
-   </div>
-   <div id="activ-4">
-     <img src="https://i.postimg.cc/FKzM6RhR/kilyan-sockalingum-NR8-c-BCN3a-I-unsplash.jpg" alt="">
-     <h3>Calanques National Park</h3>
-   </div>
-   <div id="activ-5">
-     <img src="https://i.postimg.cc/kg1ZWmWd/florian-wehde-x-W9e8gdotx-I-unsplash.jpg" alt="">
-     <h3>Notre-Dam-la-Garde</h3>
-   </div>
-   <div id="activ-6">
-     <img src="https://i.postimg.cc/0jsH9217/lena-paulin-w-H2-EJo-Dc-V0-unsplash.jpg" alt="">
-     <h3>Longchamp Park</h3>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+     </div>
+     
    </div>
  </div>
+</div>
+
+<div class="activity">
+  <div class="activity-header">  
+     <h2>Activities in Marsielle</h2>
+  </div>
+  <div class="activity-content">  
+
+  <div class="activ activ-1">
+    <img src="https://i.postimg.cc/tJ6yMgtP/reno-laithienne-QUg-Jhd-Y5-Fyk-unsplash.jpg" alt="">
+    <p>Old Port</p>
+  </div>
+  <div class="activ activ-2">
+    <img src="https://i.postimg.cc/7LQkPzK0/paul-hermann-QFTr-Ld-QIRh-I-unsplash.jpg" alt="">
+    <p>Pomegues Fort</p>
+  </div>
+  <div class="activ activ-3">
+    <img src="https://i.postimg.cc/6pMszRJg/kevin-hikari-r-V-Qd1l-VXg-unsplash.jpg" alt="">
+    <p>Frioul Island</p>
+  </div>
+  <div class="activ activ-4">
+    <img src="https://i.postimg.cc/FKzM6RhR/kilyan-sockalingum-NR8-c-BCN3a-I-unsplash.jpg" alt="">
+    <p>Calanques National Park</p>
+  </div>
+  <div class="activ activ-5">
+    <img src="https://i.postimg.cc/kg1ZWmWd/florian-wehde-x-W9e8gdotx-I-unsplash.jpg" alt="">
+    <p >Notre-Dam-la-Garde</p>
+  </div>
+  <div class="activ activ-6">
+    <img src="https://i.postimg.cc/0jsH9217/lena-paulin-w-H2-EJo-Dc-V0-unsplash.jpg" alt="">
+    <p>Longchamp Park</p>
+  </div>
+</div>
+</div>
+
 
 <footer>
-  <div class="about">
-    <h4>About</h4>
-    <li><a href="">Site Map</a></li>
-    <li><a href="">General Terms and Conditions</a></li>
-    <li><a href="">Data and Privacy</a></li>
-  </div>
-  <div class="our-acco">
-    <h4>Our Accommodation</h4>
-    <li><a href="">Quality  Assessment</a></li>
-    <li><a href="">You have a hotel?</a></li>
-  </div>
-  <div class="assistance">
-    <h4>Assistance</h4>
-    <li><a href="">Hel Desk</a></li>
-    <li><a href="">Contact Us</a></li>
-  </div>
+  <div class="foo-container"> 
+ <div class=" foo about">
+   <h4>About</h4>
+   <a href=""><li>Map</li></a>
+   <a href=""><li>General Terms and Conditions</li></a>
+   <a href=""><li>Data and Privacy</li></a>
+ </div>
+ <div class="foo our-acco">
+   <h4>Our Accommodation</h4>
+   <a href=""><li>Quality  Assessment</li></a>
+   <a href=""><li>You have a hotel?</li></a>
+ </div>
+ <div class="foo assistance">
+   <h4>Assistance</h4>
+   <a href=""><li>Hel Desk</li></a>
+   <a href=""><li>Contact Us</li></a>
+ </div>
+</div>
 </footer>
 
-  </body>
+
+
+</body>
 </html>
