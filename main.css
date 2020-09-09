@@ -1,1 +1,378 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  
+  .logo img { 
+    width: 70px;
+    height: 40px;
+      }
+
+  
+  nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: inline-flex; 
+    
+  }
+  
+  nav  a { 
+    text-decoration: none;
+    padding: 0px 0px 0px 10px;
+  
+  }
+  
+  .quote {
+    padding: 10px 0px 15px 0px;
+  }
+  
+  .quote p { 
+    padding: 10px 0px;   
+  }
+  
+  .search-box {
+    font-weight: bold;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+}
+
+    .search-box i {
+      background-color: #303096;
+      color: #ffffff;
+      position: relative;
+      width: 15%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .search-box input {
+      font-weight: bold;
+      position: relative;
+      width: 60%;
+      height: 100%;
+      border-style: none;
+      padding-left: 8px;}
+
+     .search-box input:focus {
+        border: 1px solid #dcdcdc;
+        outline-color: #dcdcdc;
+      }
+      
+    .search-box button {
+      font-weight: bold;
+      position: relative;
+      border-style: none;
+      width: 25%;
+      height: 100%;
+      background-color: blue;
+      color: white;
+      font-size: medium;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .search-box button:focus {
+        outline: 1px solid transparent;
+        background-color: #008000;
+        color: rgb(255, 220, 220);
+      }
+    
+  
+  
+  .filters {
+    font-weight: bold;
+    margin: 40px 0px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .fil-op {
+    margin: 0px 20px;
+    border: 2px solid rgb(159, 156, 192);
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .fil-op .fil-icone {
+      position: relative;
+        top: 0px;
+        left: 0px;
+        border-radius: 50%;
+        background-color: #9f9ff5;
+        height: 40px;
+        width: 40px;
+      }
+
+      .fil-op .fil-icone i {
+        position: relative;
+        color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30%;  
+      }
+    
+      .fil-op span {
+      padding: 10px;
+    }
+    
+
+  .info {
+    margin: 10px auto;
+  }
+    .info i {
+      color: #0000ff;
+    }
+
+  .accos {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .acco-block-1 {
+    flex: 2;
+    padding: 10px;
+    margin: 20px auto 20px 0px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #cfcdcd;
+  }
+
+.acco-info {
+    position: relative;
+      width: 100%;
+      height: 40px;
+    }
+
+  .acco {
+      width: 200px;
+      height: 200px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 3px;
+     }
+    
+    .acco img {
+      width: 100%;
+      height: 65%;
+      border: 1px solid transparent;
+      border-radius: 10px 10px 0px 0px;
+      
+    }
+
+    .acco-list {
+    position: relative;
+    width: 100%;
+    height: 500px;;
+    display: grid;
+    grid-gap: 10px;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    
+    grid-template-areas: 
+    "a b c"
+    "d e f" 
+    ;
+    }
+
+    .acco-a {
+        grid-area: a;
+    }
+
+    .acco-b {
+        grid-area: b;
+    }
+
+    .acco-c {
+        grid-area: c;
+    }
+
+    .acco-d {
+        grid-area: d;
+    }
+
+    .acco-e {
+        grid-area: e;
+    }
+
+    .acco-f {
+        grid-area: f;
+    }
+
+
+     #expander { 
+     font-weight: bold;
+     }
+
+ .acco-block-2 {
+        flex: 1;
+        padding: 10px;
+        margin: 20px auto;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        background-color: #cfcdcd;
+        
+      }
+
+      .acco-block-2_content {
+          display: grid;
+          grid-gap: 20px;
+      }
+     
+      .acco-block-2_header {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 40px;
+        font-weight: bolder;
+    }
+    
+    .acco-block-2_header i {
+     margin-left: 10px;
+    }
+    
+.popular-accos {
+    background-color: white;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 3px;
+    width: 400px;
+    height: 150px;
+}
+
+.popular-accos img {
+    width: 150px;
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.popular-accos_info {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+
+.popular-accos_info p {
+ margin: 10px 0px;
+}
+
+#hotel-name {
+    font-weight: bolder;
+}
+
+  
+  .activity {
+    margin: 20px auto;
+    width: 100%;
+    height: 500px;
+  }
+
+  .activity-header {
+      font-weight: bold;
+      margin: 20px auto;
+  }
+
+  .activ {
+      border: 1px solid transparent;
+      border-radius: 10px 10px 0px 0px;
+      
+  }
+
+  .activ img {
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0px 0px; 
+    position: relative;
+    width: 100%;
+    height: 90%;
+  }
+
+  .activ p {
+      font-weight: bolder;
+  }
+
+  .activity-content {
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      display: grid;
+      grid-gap: 20px;
+      grid-template: repeat(2, 200px) / repeat(4, 1fr);
+      grid-template-areas: 
+      "A B D E"
+      "A C D F";
+  }
+
+  .activ-1 {
+      grid-area: A;
+  }
+
+  .activ-2 {
+    grid-area: B;
+}
+.activ-3 {
+    grid-area: C;
+}
+.activ-4 {
+    grid-area: D;
+}
+.activ-5 {
+    grid-area: E;
+}
+.activ-6 {
+    grid-area: F;
+}
+
+footer {
+    
+    width: 100%;
+    height: 200px;
+    background-color: rgb(128, 128, 240);
+    
+    
+}
+
+.foo-container {
+    padding: 20px 40px;
+    margin: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.foo li  {
+    list-style: none;
+    padding: 5px;
+            
+}
+
+.foo a {
+    text-decoration: none;
+}
